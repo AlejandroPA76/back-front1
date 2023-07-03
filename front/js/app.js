@@ -2,6 +2,10 @@
       el: '#app',
       data() {
         return {
+          nom: '',   //aqui se guardan los datos que vienen de el formulario
+           //edad: null,
+          ape: '', //aqui se guardan los datos que vienen de el formulario
+
           items: [] // Aquí almacenaremos los datos de la API
         };
       },
